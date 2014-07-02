@@ -1,0 +1,24 @@
+{
+  "author": "WeigleWilczek GmbH",
+  "name": "w11k-flash-page",
+  "version": "0.1.0",
+  "homepage": "http://www.weiglewilczek.com",
+  "description": "GitHub Page for w11k-flash",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/w11k/w11k-flash-page.git"
+  },
+
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "0.4.4",
+    "fabs": "0.5.5",
+    "lodash": "2.2.1"
+  },
+
+  "engines": {
+    "node": ">=0.10.21"
+  }
+  
+}
