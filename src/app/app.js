@@ -28,7 +28,7 @@ angular.module('app').controller('DemoCtrl', function ($scope) {
 
   $scope.talkToMe = function (message) {
     $scope.message = message;
-    $scope.response = 'Hello! My name is ' + $scope.me.name + '.'
+    $scope.response = 'Hello! My name is ' + $scope.me.name + '.';
 
     return $scope.response;
   };
