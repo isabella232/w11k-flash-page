@@ -33,6 +33,7 @@ module.exports = {
 
         'google-code-prettify/src/prettify.js',
         'w11k-slides/dist/w11k-slides.js',
+        'w11k-slides/dist/w11k-slides.tpl.js',
 
         'w11k-flash/dist/js/w11k-flash.js',
         'w11k-flash/dist/js/w11k-flash.tpl.js',

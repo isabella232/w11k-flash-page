@@ -2,7 +2,9 @@
 
 angular.module('app', [
   'w11k.flash',
-  'w11k.flash.template'
+  'w11k.flash.template',
+  'w11k.slides',
+  'w11k.slides.template',
 ]);
 
 angular.module('app').controller('DemoCtrl', function ($scope) {
