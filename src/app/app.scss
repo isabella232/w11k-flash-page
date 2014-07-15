@@ -11,9 +11,6 @@
 
 @import "w11k-slides/dist/w11k-slides";
 
-$fa-font-path: "assets/font-awesome/fonts";
-@import "font-awesome/scss/font-awesome";
-
 pre.prettyprint {
   font-size: 0.7em;
 }
@@ -34,17 +31,6 @@ code {
 }
 
 @import "w11k-flash/dist/js/w11k-flash";
-
-ul.conversations {
-  li:after {
-    content: '|';
-    padding-left: 5px;
-  }
-
-  li:last-of-type:after {
-    content: ''
-  }
-}
 
 *[ng-click] {
   cursor: pointer;
