@@ -12,7 +12,8 @@
 @import "w11k-slides/dist/w11k-slides";
 
 pre.prettyprint {
-  font-size: 0.7em;
+  border-width: 1px;
+  border-radius: 4px;
 }
 
 // ****************************************************************************************************
@@ -30,4 +31,27 @@ $fa-font-path: "assets/font-awesome/fonts";
 
 *[ng-click] {
   cursor: pointer;
+}
+
+h1, h2, h3, h4 {
+  margin-top: 1.6em;
+  margin-bottom: 0.8em;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+h1+h2, h2+h3, h3+h4 {
+  margin-top: -0.5em;
+}
+
+.step-by-step-instructions {
+  > li {
+    margin-top: 2em;
+  }
+
+  > li:first-of-type {
+    margin-top: 0;
+  }
 }
