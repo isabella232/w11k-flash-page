@@ -46,7 +46,9 @@ module.exports = {
       ],
       css: [
       ],
-      assets: [ ]
+      assets: [
+        'font-awesome/fonts/*.*'
+      ]
     }
   }
 };

@@ -32,6 +32,9 @@ code {
 
 @import "w11k-flash/dist/js/w11k-flash";
 
+$fa-font-path: "assets/font-awesome/fonts";
+@import "font-awesome/scss/font-awesome";
+
 *[ng-click] {
   cursor: pointer;
 }
