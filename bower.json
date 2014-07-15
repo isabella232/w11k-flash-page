@@ -1,7 +1,7 @@
 {
   "name": "w11k-flash-page",
   "devDependencies": {
-    "angular": "1.2.19",
+    "angular": "1.2.20",
     "twbs-bootstrap-sass": "3.1.1",
     "w11k-slides": "0.4.2",
 
